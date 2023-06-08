@@ -1,0 +1,28 @@
+{
+  "name": "@diablo/editor",
+  "private": true,
+  "author": "cpmlhj <345829331@qq.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@diablo/core": "workspace:^",
+    "@diablo/materials": "workspace:^",
+    "@emotion/css": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "material-ui-color-picker": "^3.5.1",
+    "react-contenteditable": "^3.3.7",
+    "react-redux": "^8.0.7",
+    "redux": "^4.2.1",
+    "umi": "^4.0.70"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
