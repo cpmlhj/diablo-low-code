@@ -1,13 +1,15 @@
-import {css} from '@emotion/css'
-
+import { css } from '@emotion/css'
 
 const HeaderCSS = css({
-    background: '#fff',
-    textAlign: 'center',
+	background: '#fff',
+	textAlign: 'center',
+	height: '40px'
 })
 
 export default () => {
-   return <div className={css(HeaderCSS)}>
-      <h1>Diablo  Editor</h1>
-   </div>
+	return (
+		<div className={css(HeaderCSS)}>
+			<p>Diablo Editor</p>
+		</div>
+	)
 }

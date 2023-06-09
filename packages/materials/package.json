@@ -6,9 +6,11 @@
   "module": "/dist/index.es.js",
   "main": "./dist/index.umd.js",
   "scripts": {
-     "build": "vite build"
+     "build": "vite build",
+     "start": "vite build --watch"
   },
   "dependencies": {
+    "@diablo/core": "workspace:^",
     "re-resizable": "^6.9.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

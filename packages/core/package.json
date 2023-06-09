@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "src/index.ts",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc && vite build",
+    "start": "tsc && vite build --watch",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {

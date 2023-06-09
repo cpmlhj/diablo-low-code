@@ -1,11 +1,9 @@
-
-
 import * as React from 'react'
-import EditorLayout from '@/components/layout/layout'
-import '../initalize.css' 
+import { LowCodeEditor } from '@/components/editor'
+import '../initalize.css'
 
 export interface TextProps {
-   children?: React.ReactNode
+	children?: React.ReactNode
 }
 
 // const TextView = React.forwardRef<HTMLDivElement, TextProps>((props, ref) => {
@@ -19,5 +17,5 @@ export interface TextProps {
 // })
 
 export default function HomePage() {
-   return <EditorLayout/ >
-} 
+	return <LowCodeEditor enable />
+}
